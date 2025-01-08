@@ -6,22 +6,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari_video-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/napari_video-{{ version }}.tar.gz
   sha256: ec86dfb50ee3cc17d686b6243eaa40f81d813faa191647a0eb7aeec097d7aaef
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - flit-core
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - numpy
-    - python >=3.6
+    - python >={{ python_min }}
     - pyvideoreader
     - napari-plugin-engine >=0.1.4
     # adding dask-core due to unused import; remove in next release!
@@ -35,6 +35,7 @@ test:
     # - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/janclemenslab/napari-video
