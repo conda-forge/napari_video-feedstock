@@ -1,5 +1,5 @@
 {% set name = "napari_video" %}
-{% set version = "0.2.9" %}
+{% set version = "0.2.10" %}
 
 package:
   name: {{ name|lower }}
