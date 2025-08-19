@@ -1,5 +1,5 @@
 {% set name = "napari_video" %}
-{% set version = "0.2.10" %}
+{% set version = "0.2.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/napari_video-{{ version }}.tar.gz
-  sha256: ec86dfb50ee3cc17d686b6243eaa40f81d813faa191647a0eb7aeec097d7aaef
+  sha256: cbdc57f8e0ce08a81e87d7ba6b94fa971e6beb0260d0f99f725ec1f9f2a1cf5f
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
