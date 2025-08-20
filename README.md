@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-napari_video-green.svg)](https://anaconda.org/conda-forge/napari_video) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/napari_video.svg)](https://anaconda.org/conda-forge/napari_video) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/napari_video.svg)](https://anaconda.org/conda-forge/napari_video) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/napari_video.svg)](https://anaconda.org/conda-forge/napari_video) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-napari__video-green.svg)](https://anaconda.org/conda-forge/napari_video) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/napari_video.svg)](https://anaconda.org/conda-forge/napari_video) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/napari_video.svg)](https://anaconda.org/conda-forge/napari_video) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/napari_video.svg)](https://anaconda.org/conda-forge/napari_video) |
 
 Installing napari_video
 =======================
